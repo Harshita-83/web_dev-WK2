@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+  <title>Shih Tzu Demo Page</title>
+  <style>
+    .page {
+      display: none;
+    }
+    .page.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Navigation Menu</h1>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="showPage('home')">Home</a></li>
+        <li><a href="#" onclick="showPage('about')">About</a></li>
+        <li><a href="#" onclick="showPage('contact')">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="page active">
+      <h2>Home</h2>
+      <p>Click the image to learn about the breed.</p>
+      <a href="https://en.wikipedia.org/wiki/Shih_Tzu" target="_blank" rel="noopener noreferrer">
+        <img src="images/shitzu.jpg" alt="Shih Tzu puppy" width="800" height="1200">
+      </a>
+      <p>Visit <a href="https://en.wikipedia.org/wiki/Shih_Tzu" target="_blank" rel="noopener noreferrer">Wikipedia</a> for more information.</p>
+    </section>
+
+    <section id="about" class="page">
+      <h2>About</h2>
+      <p>This is the About page.</p>
+      <p>The site demonstrates page navigation within a single file.</p>
+    </section>
+
+    <section id="contact" class="page">
+      <h2>Contact Us</h2>
+      <p>For inquiries, email <a href="mailto:info@example.com">info@example.com</a>.</p>
+    </section>
+  </main>
+
+  <script>
+    function showPage(pageId) {
+      // Hide all pages
+      const pages = document.querySelectorAll('.page');
+      pages.forEach(page => page.classList.remove('active'));
+      
+      // Show selected page
+      document.getElementById(pageId).classList.add('active');
+    }
+  </script>
+</body>
+</html>
