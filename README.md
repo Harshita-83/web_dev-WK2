@@ -1,44 +1,57 @@
-Overview
+# Week 2 Web Development Tasks
 
-This repository contains three uploaded web files, each deployed separately using Netlify. These files appear to be part of a learning or weekly task series, showcasing basic web development concepts such as structure, styling, and layout.
+## Overview
 
-Each link represents an independent version or variation of the task.
+This repository contains three uploaded web files, each deployed separately using **Netlify**. These files are part of a learning or weekly task series and demonstrate basic web development concepts such as HTML structure, CSS styling, and page layout.
 
-Live Project Links
+Each link represents an independent version or variation of the same task.
 
-File 1 (Week 2 – Part A):
-https://wk2-2a.netlify.app/
+---
 
-File 2 (Week 2 – Part B):
-https://wk2-2b.netlify.app/
+## Live Project Links
 
-File 3 (Week 2 – Part C):
-https://wk2-2c.netlify.app/
+### File 1 (Week 2 – Part A)
+🔗 https://wk2-2a.netlify.app/
 
-Small Description
+### File 2 (Week 2 – Part B)
+🔗 https://wk2-2b.netlify.app/
 
-This project demonstrates basic frontend development skills through three separate web pages. Each page is hosted on Netlify and represents incremental practice or variations of a given task. The focus is on understanding HTML structure, applying CSS styles, and deploying static websites.
+### File 3 (Week 2 – Part C)
+🔗 https://wk2-2c.netlify.app/
 
-Technologies Used
+---
 
-HTML5
+## Small Description
 
-CSS3
+This project demonstrates basic frontend development skills through three separate web pages. Each page is hosted on Netlify and represents incremental practice or variations of a given task. The main focus is on understanding HTML structure, applying CSS styles, and deploying static websites.
 
-Netlify (for deployment)
+---
 
-Purpose of the Project
+## Technologies Used
 
-To practice and understand web development fundamentals
+- **HTML5**
+- **CSS3**
+- **Netlify** (for deployment)
 
-To learn static website deployment using Netlify
+---
 
-To organize and present multiple task submissions clearly
+## Purpose of the Project
 
-How to Use
+- To practice and understand web development fundamentals  
+- To learn static website deployment using Netlify  
+- To organize and present multiple task submissions clearly  
 
-Click on any of the live links above.
+---
 
-View each web page in a browser.
+## How to Use
 
-Compare the different versions to understand improvements or changes.
+1. Click on any of the live links above  
+2. View each web page in a browser  
+3. Compare the different versions to understand improvements or changes  
+
+---
+
+## Author
+
+Mukesh  
+Student | Web Development Learner
